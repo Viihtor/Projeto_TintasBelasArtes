@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoTinta", "ProjetoTinta\ProjetoTinta.csproj", "{CBE3B942-1495-4D48-9291-2212D8342DBD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_ProjetoBelasArtes", "ProjetoTinta\Instalador\Instalador_ProjetoBelasArtes\Instalador_ProjetoBelasArtes.vdproj", "{B11EFC45-FDE5-40D2-BAC1-A48D3B5CE9E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE3B942-1495-4D48-9291-2212D8342DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE3B942-1495-4D48-9291-2212D8342DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE3B942-1495-4D48-9291-2212D8342DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE3B942-1495-4D48-9291-2212D8342DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11EFC45-FDE5-40D2-BAC1-A48D3B5CE9E9}.Debug|Any CPU.ActiveCfg = Debug
+		{B11EFC45-FDE5-40D2-BAC1-A48D3B5CE9E9}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F17442F-44B6-4486-B6B1-872C1015899E}
+	EndGlobalSection
+EndGlobal

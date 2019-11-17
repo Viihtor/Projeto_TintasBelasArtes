@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProjetoTinta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Belas Artes" Height="350" Width="525">
+    <Window.Background>
+        <ImageBrush ImageSource="img/446529_kisti_bryzgi_kraski_7400x4860_www.Gde-Fon.com.jpg"/>
+    </Window.Background>
+    <Grid>
+
+        <TextBlock Text="TINTAS BELAS ARTES" HorizontalAlignment="Center" Margin="102,44,104,240"
+                   FontSize="32" FontFamily="Bauhaus 93"></TextBlock>
+        <Button Content="Cadastrar" HorizontalAlignment="Left" Margin="19,184,0,0" VerticalAlignment="Top" Width="122" Height="57" x:Name="btnCadastrar" Click="btnCadastrar_Click"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="201,184,0,0" VerticalAlignment="Top" Width="122" Height="57" x:Name="btnListar" Click="btnListar_Click"/>
+        <Button Content="Arquivo" HorizontalAlignment="Left" Margin="375,184,0,0" VerticalAlignment="Top" Width="122" Height="57" Click="Button_Click"/>
+    </Grid>
+</Window>
+        

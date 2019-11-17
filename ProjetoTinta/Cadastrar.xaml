@@ -1,0 +1,69 @@
+﻿<Window x:Class="ProjetoTinta.Cadastrar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cadastrar Tinta" Height="202" Width="530">
+    <Window.Background>
+        <ImageBrush ImageSource="img/background_progama.jpg"/>
+    </Window.Background>
+    <Grid>
+        <StackPanel>
+            <Grid Margin="5,10,5,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label FontSize="14" FontWeight="Bold">Cor</Label>
+                    <TextBox x:Name="txtCor" Grid.Row="1" FontSize="14"></TextBox>
+                </Grid>
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="1" FontSize="14" FontWeight="Bold">Marca</Label>
+                    <TextBox x:Name="txtMarca" Grid.Row="1" Grid.Column="1" FontSize="14"></TextBox>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label FontSize="14" FontWeight="Bold">Preço</Label>
+                    <TextBox x:Name="txtPreco" Grid.Row="1" FontSize="14" ></TextBox>
+                </Grid>
+
+
+                <Button Grid.Row="2" Margin="128,25,128,-15" 
+                        Padding="0,0,1,1" FontSize="14" Cursor="Hand"
+                        x:Name="btnCadastrar" Click="btnCadastrar_Click" Grid.ColumnSpan="2">Cadastrar
+                </Button>
+            </Grid>
+
+        </StackPanel>
+    </Grid>
+</Window>
